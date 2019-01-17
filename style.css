@@ -1,0 +1,22 @@
+body {
+  background: url(https://apod.nasa.gov/apod/image/1705/Arp273Main_HubblePestana_3079.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.border-image {
+  border: solid 20px red;
+}
+
+p, h3, h2, h1, h4, h5, h6, ul {
+  background: linear-gradient(45deg, red, blue, purple);
+  color: #FFF;
+  /* box-shadow: 0 0 30px purple inset; */
+}
+
+::-webkit-scrollbar {
+  background: purple;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+}
